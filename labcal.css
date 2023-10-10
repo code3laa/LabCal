@@ -1,0 +1,74 @@
+
+.headName {
+    margin-bottom: 2px;
+}
+
+.main {
+    display: flex;
+    margin-top: 1.1rem;
+}
+.active{
+    color: #eee;
+    font-size: 1.2erm;
+    font-weight: bold;
+}
+.info {
+    margin-left: 1.2rem;
+    
+}
+
+a {
+    position: relative;
+    margin-bottom: 0.4rem;
+}
+
+a::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 5px;
+    background-color: green;
+    margin-top: -8px;
+    margin-left: -17px;
+}
+
+.input {
+    font-size: 20px;
+    font-weight: bolder;
+    color: green;
+}
+
+.input-group {
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+.result {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #652;
+    margin-top: 20px;
+}
+
+.resultName {
+    font: 1.5rem bolder;
+    
+}
+
+.spanres {
+    height: 30px;
+    width: 80px;
+    font: 20px bold;
+    color: #652;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+}
+.vldloutput,.nonHdloutput{
+    margin-top: 1rem;
+}
+.foottext{
+    border-top: 3px solid green;
+}
+#Alaa{
+    font-weight: bolder;
+}

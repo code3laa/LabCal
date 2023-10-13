@@ -35,7 +35,7 @@
           <a href="#" class="list-group-item list-group-item-action list-group-item-success "data-test=".ACR">Microalbuminuria</a>
           <a href="#" class="list-group-item list-group-item-action list-group-item-success "data-test=".homaIr">Homa-IR</a>
           <a href="#" class="list-group-item list-group-item-action list-group-item-success "data-test=".urineOsmo">Urine Osmol.</a>
-          <a href="#" class="list-group-item list-group-item-action list-group-item-success ">NRBCs</a>
+          <a href="#" class="list-group-item list-group-item-action list-group-item-success "data-test=".NRBCs">NRBCs</a>
           <a href="#" class="list-group-item list-group-item-action list-group-item-success">Ca-Ionized</a>
           <a href="#" class="list-group-item list-group-item-action list-group-item-success ">Fractional Sodium(FENa)</a>
         </div>
@@ -53,22 +53,31 @@
                         <p class="input">Inputs</p>
                         <div class="chol inputName">
                           <div class="input-group">
-                            <input type="number" id="chol" class="form-control" placeholder="Cholesterol Value"
-                              aria-label="Cholesterol Input" aria-describedby="basic-addon2" />
+                            <div class="form-floating">
+                              <input type="number" id="floatingInputGroup1" class="form-control" placeholder="Cholesterol Value"
+                            aria-label="Cholesterol Input" aria-describedby="basic-addon2" />
+                            <label for="floatingInputGroup1">Cholesterol Value</label>
+                            </div>
                             <span class="input-group-text" id="basic-addon2">mg/dl</span>
                           </div>
                         </div>
                         <div class="trigs inputName">
                           <div class="input-group">
-                            <input type="number" id="trigs" class="form-control" placeholder="Triglycerides Value"
-                              aria-label="Triglycerides Input" aria-describedby="basic-addon2" />
+                            <div class="form-floating">
+                              <input type="number" id="floatingInputGroup2" class="form-control" placeholder="Triglycerides Value"
+                            aria-label="Triglycerides Input" aria-describedby="basic-addon2" />
+                            <label for="floatingInputGroup2">Triglycerides Value</label>
+                            </div>
                             <span class="input-group-text" id="basic-addon2">mg/dl</span>
                           </div>
                         </div>
                         <div class="hdl inputName">
                           <div class="input-group">
-                            <input type="number" id="hdlValue" class="form-control" placeholder="HDL Value"
-                              aria-label="HDL Input" aria-describedby="basic-addon2" />
+                            <div class="form-floating">
+                              <input type="number" id="floatingInputGroup3" class="form-control" placeholder="HDL Value"
+                            aria-label="HDL Input" aria-describedby="basic-addon2" />
+                            <label for="floatingInputGroup3">HDL Value</label>
+                            </div>
                             <span class="input-group-text" id="basic-addon2">mg/dl</span>
                           </div>
                         </div>
@@ -123,15 +132,22 @@
                         <p class="input">Inputs</p>
                         <div class="insulinfast inputName">
                           <div class="input-group">
-                            <input type="number" id="insulin" class="form-control" placeholder="insulin Fasting Value"
-                              aria-label="Cholesterol Input" aria-describedby="basic-addon2" />
+                            <div class="form-floating">
+                              <input type="number" id="floatingInputGroup4" class="form-control" placeholder="insulin Fasting Value"
+                              aria-label="insulin Fasting Input" aria-describedby="basic-addon2" />
+                              <label for="floatingInputGroup4">insulin Fasting Value</label>
+                            </div>
                             <span class="input-group-text" id="basic-addon2">&#181;IU/ml</span>
                           </div>
                         </div>
                         <div class="glucosefast inputName">
                           <div class="input-group">
-                            <input type="number" id="glucose" class="form-control" placeholder="Glucose Fasting Value"
-                              aria-label="Triglycerides Input" aria-describedby="basic-addon2" />
+                            <div class="form-floating">
+                              <input type="number" id="floatingInputGroup5" class="form-control" placeholder="Glucose Fasting Value"
+                              aria-label="insulin Fasting Input" aria-describedby="basic-addon2" />
+                              <label for="floatingInputGroup5">Glucose Fasting Value</label>
+                            </div>
+                            
                             <span class="input-group-text" id="basic-addon2">mg/dl</span>
                           </div>
                         </div>
@@ -179,15 +195,22 @@
                         <p class="input">Inputs</p>
                         <div class="Albumin inputName">
                           <div class="input-group">
-                            <input type="number" id="Albumin" class="form-control" placeholder=" Albumin in Urine Value"
-                              aria-label=" Albumin Input" aria-describedby="basic-addon2" />
+                            <div class="form-floating">
+                              <input type="number" id="floatingInputGroup6" class="form-control" placeholder="Albumin in Urine Value"
+                              aria-label="Albumin in Urine Input" aria-describedby="basic-addon2" />
+                              <label for="floatingInputGroup6">Albumin in Urine Value</label>
+                            </div>
                             <span class="input-group-text" id="basic-addon2">mg/l</span>
                           </div>
                         </div>
                         <div class="creat inputName">
                           <div class="input-group">
-                            <input type="number" id="creat" class="form-control" placeholder="Creatinine in Urine Value"
-                              aria-label="Creatinine Input" aria-describedby="basic-addon2" />
+                            <div class="form-floating">
+                              <input type="number" id="floatingInputGroup7" class="form-control" placeholder="Creatinine in Urine Value"
+                              aria-label="Creatinine in Urine Input" aria-describedby="basic-addon2" />
+                              <label for="floatingInputGroup7">Creatinine in Urine Value</label>
+                            </div>
+
                             <span class="input-group-text" id="basic-addon2">mg/dl</span>
                           </div>
                         </div>
@@ -232,9 +255,11 @@
                         <p class="input">Inputs</p>
                         <div class="urineSpecificGravity inputName">
                           <div class="input-group">
-                            <input type="number" id="uriSpeGr" class="form-control"
-                              placeholder=" Urine Specific Gravity Value" aria-label=" Albumin Input"
-                              aria-describedby="basic-addon2" />
+                            <div class="form-floating">
+                              <input type="number" id="floatingInputGroup8" class="form-control" placeholder=" Urine Specific Gravity Value"
+                              aria-label="Creatinine in Urine Input" aria-describedby="basic-addon2" />
+                              <label for="floatingInputGroup8"> Urine Specific Gravity Value</label>
+                            </div>
                             <span class="input-group-text" id="basic-addon2"></span>
                           </div>
                         </div>
@@ -264,6 +289,69 @@
           </div>
         </div>
         <!-- End urine osmolality -->
+        <!-- Start NRBCs -->
+        <div  class="col show NRBCs" style="display: none;">
+          <div class="row">
+            <div class="info col">
+              <div class="NRBCs2">
+                <h1>Corrected WBC Count</h1>
+                <div class="NRBCsCal">
+                  <div class="param">
+                    <div class="feilds">
+                      <div class="inputsNRBCs">
+                        <p class="input">Inputs</p>
+                        <div class="WBCs inputName">
+                          <div class="input-group">
+                            <div class="form-floating">
+                              <input type="number" id="floatingInputGroup9" class="form-control" placeholder="uncorrected WBC count"
+                              aria-label="uncorrected WBC count Input" aria-describedby="basic-addon2" />
+                              <label for="floatingInputGroup9">Uncorrected WBC count</label>
+                            </div>
+                            <span class="input-group-text" id="basic-addon2">10<sup>3</sup>/cmm</span>
+                          </div>
+                        </div>
+                        <div class="nbrs inputName">
+                          <div class="input-group">
+                            <div class="form-floating">
+                              <input type="number" id="floatingInputGroup10" class="form-control" placeholder=""
+                              aria-label="Creatinine in Urine Input" aria-describedby="basic-addon2" />
+                              <label for="floatingInputGroup10">NRBCs Count</label>
+                            </div>
+
+                            <span class="input-group-text" id="basic-addon2">Cell</span>
+                          </div>
+                        </div>
+                        <button type="button" onclick="nbrs()" class="btn btn-outline-success">
+                          Calculate
+                        </button>
+                      </div>
+                      <div class="outputnbrs">
+                        <p class="result">Reults</p>
+                        <div class="nbrsresult">
+                          <div class="nbrsoutput d-flex">
+                            <p class="resultName">Corrected WBCs</p>
+                            <div class="spanres text-center" id="nbrsOutRes"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="equnbrs col d-grid align-content-center">
+              <h5>Corrected WBCs =<br />(Total WBCs count * 100)/(NRBCs Count + 100)</h5>
+              <p>
+                Total WBCs count (10<sup>3</sup>/cmm) <br />
+                NRBCs Count (Cells):  Nucleated RBC <br />
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- End NRBCs -->
+        <!-- Start Ca Inonized -->
+        
+        <!-- End Ca Inonized -->
       </div>
       <!--  End Main     -->
     </div>

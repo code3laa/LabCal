@@ -1,4 +1,3 @@
-
 .headName {
     margin-bottom: 2px;
 }
@@ -7,14 +6,16 @@
     display: flex;
     margin-top: 1.1rem;
 }
-.active{
+
+.active {
     color: #eee;
     font-size: 1.2erm;
     font-weight: bold;
 }
+
 .info {
     margin-left: 1.2rem;
-    
+
 }
 
 a {
@@ -43,6 +44,12 @@ a::before {
     margin-bottom: 10px;
 }
 
+.form-control:focus {
+
+    box-shadow: 0 0 0 0.25rem rgba(37, 95, 3, 0.3);
+    border-color: #177e1c;
+}
+
 .result {
     font-size: 20px;
     font-weight: bolder;
@@ -52,7 +59,7 @@ a::before {
 
 .resultName {
     font: 1.5rem bolder;
-    
+
 }
 
 .spanres {
@@ -63,12 +70,16 @@ a::before {
     border: 1px solid #ccc;
     margin-left: 20px;
 }
-.vldloutput,.nonHdloutput{
+
+.vldloutput,
+.nonHdloutput {
     margin-top: 1rem;
 }
-.foottext{
+
+.foottext {
     border-top: 3px solid green;
 }
-#Alaa{
+
+#Alaa {
     font-weight: bolder;
 }

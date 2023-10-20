@@ -50,6 +50,10 @@ a::before {
     border-color: #177e1c;
 }
 
+.inISI {
+    margin-top: 0.5rem;
+}
+
 .result {
     font-size: 20px;
     font-weight: bolder;
@@ -59,21 +63,28 @@ a::before {
 
 .resultName {
     font: 1.5rem bolder;
+    margin-top: 0.9rem;
 
 }
 
 .spanres {
-    height: 30px;
+    height: 60px;
     width: 80px;
-    font: 20px bold;
+    font: 25px bolder;
     color: #652;
     border: 1px solid #ccc;
     margin-left: 20px;
+    border-radius: 5px;
+    padding-top: 15px;
 }
 
 .vldloutput,
 .nonHdloutput {
     margin-top: 1rem;
+}
+.nr{
+   color: #207905; 
+   font-weight: 900;
 }
 
 .foottext {
